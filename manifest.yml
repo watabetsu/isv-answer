@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: isv-answer
+  host: isv-answer
+  disk_quota: 1024M
+  services:
+  - isv-answer-cloudantNoSQLDB
